@@ -1,0 +1,1972 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FinalProject_OOP.exe" version="1.0.0.1" publicKeyToken="9e3fb3bd967113f7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FinalProject_OOP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FinalProject_OOP.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FinalProject_OOP.exe" size="4086744">
+      <assemblyIdentity name="FinalProject_OOP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7/biAuTvFkx69r/lEyCc7N4uVmeO7kFxlVdkf34IEsg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FinalProject_OOP.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Backgrounds\game_background_1.png" size="478949">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+X006zhxJ465q9N8y3FLk3GHZ0TYS+e2/gnY8npdRR0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Backgrounds\game_background_birds.png" size="333799">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lqQ0Ah/YDJueKvvXIPt9hY0QnJ3vBOc4oF8PH8RDi68=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Backgrounds\game_background_night.png" size="380097">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xOoZk7KpkXl3RAhwvf/0N+hNKJfqv5hCL7zfSRVeFE8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Backgrounds\game_background_waterfall.png" size="478097">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HHJeC2PWDvJHFT9sVSiaduDnDnTf5ry3ca1OxSUUUEY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Backgrounds\Games_Above_the_clouds__the_background_of_the_game_Bejeweled_3_101622_16.jpeg" size="273763">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mpMEuzZbwgAcF9yBB7qSpDM08J4GJptNRfRl9M2VceQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Characters\bobLeft.png" size="8257">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Pounb/GMnPRI/FZonqQ1+g+k1IIG/k0qArwJgIUS9n8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Characters\bobRight.png" size="8030">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tFDn/O3/58+YeA6a0e/FSpNcLs828Q+iUP60+61qC68=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Characters\superManLeft.png" size="8354">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>id8GM6XRPE+FhOeeqHYuTnMd+EGygpLsQ26NexxlErg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Characters\superManRight.png" size="8134">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n5tOzfweX+aYg0Bj1h1MmLFb9VByUeh26I2eSzJR+7c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\1.png" size="46333">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XjlZ3LnZ4f0+8FmK9Ejrbhg+n5kx9oz8FEm46KpAJhE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\10.png" size="42921">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qTpoWHFeK1SuOg8aV6TeqXj0MqDH3gGN8oRjlgagUp4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\2.png" size="45186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sD3L4I9QKIcnSpXXWc+3sDlHTRAjfhxrdDI9UfSHW58=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\3.png" size="40043">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aiLVL5RLUnX6DOXLcQ8X4hGm3Sq5pz3EiGEFEndhmWg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\4.png" size="27856">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mai9mI9WEVKY5QQSRFEjJ0qnEaDCEmjY9P67X16Hkfo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\5.png" size="3891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EeQVRw9r78sywKfWpgPyF5T9+r/qI/Ub7Pu1GNoTGOQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\6.png" size="28756">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FOtcnLwC8feEEtixoJiPQflpqEpwudCihaMumv5mGuQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\7.png" size="41235">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PTe0wcqKZ0/l4H8zLz7TaWG/ttCb91pHkDz4N6DGFJI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\8.png" size="43903">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5/a13sr8dCXI1MJcIAVYpEcrtFPuvK4yVfEkRhauQjw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\9.png" size="45571">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SGoefNSMIJ1jBlozdvp8SCGOaiGc8vimIg/knq03OZk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_11.png" size="52491">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IuYoXXVZ0OPzF6YvrI0CGS3YyF1SwkxSqq03Gbuzoew=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_12.png" size="55348">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jT/USH1CEC6U4tGP/9oeXIV2Jpl/nUSrsLBzGr/krds=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_13.png" size="52706">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jODwVJ07/EMgheWWtl67HOnP9Mp907cD32pJcjeW1Jc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_14.png" size="48112">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3K3CdWHEgrQEWEpK6uuzcQBtlyvyZtbxo5EGwQzints=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_15.png" size="33213">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KtD7rj6UnGs+gNexblHKDnEE9LoFf8MDclNyZA7eJNc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_16.png" size="3863">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IRi1A0UO0P33xiB/swRqEDVp9B9J599Z14kgwhJXS8o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_17.png" size="32563">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pcBdcLF0k2m//DfHoz/1MB0ykZAadPQ981CbA+c8C/E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_18.png" size="46983">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Lez1CWuaBBlxRqUmizSsBPiaPKnN7NbHn7o/UnBCGAY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_19.png" size="53407">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZhA9TMqjKbvo8rCy166F+Da3zf/lc8OltMumUFOiqp0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_20.png" size="56283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hwrTMqlP197myhHt8FnOA7qrcs5AHqjfR9Brm4LoWuA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_21.png" size="56395">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OK3LwdNan31A9w44PpEX/msqIwjF4r3K2nmbOlb8L0g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_22.png" size="53248">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wbaqOTWu4iymTywHqXR2f1qaB69KPKG8rQlydFMG4f8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_23.png" size="48001">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HqJLwYy0M607PDIl34gbSJtqxwKAdDqoHxdCr7cKj9k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_24.png" size="33459">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1QburAgALWFzTI5A7Fllxt5c+5fnpm0Px8GEWOCG2uI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_25.png" size="3878">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zkkS+7w1yA7fZLO/vsozZp+gkhS2E5xO4hrN+VMUhEo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_26.png" size="34393">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>t0OtU9S5XrWx18QRKqR8l7hfJK/plN9ANvukEi3VZCw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_27.png" size="49026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9ZBnVYFeBaZ9lyffSek8uaesJhlyO+U4N8ehODLFbUE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_28.png" size="52655">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RZIlapxPzHCtE6Ns1lUMAxeKjewyPc8aGg4+Qu1CQ8o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_29.png" size="56175">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>01bSWM309/QfGZ6fYD4m0tZKGUVx6sNe/miM276MhE8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Bronze\Bronze_30.png" size="55316">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iV8SY7N3rSdWPdcoZ1+1UMusJ39jkUkRD6GZujrz4SE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\1.png" size="41157">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jV4ntZcG9Cirf9wzVJ0LD5kA6GEqArzZZSb0VyFdqvQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\10.png" size="44175">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FoN7O4SMfLEhNPGyPUxJFjrbIUHhpmHfKJqpLDcCVHQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\2.png" size="43402">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uGixQS4RIVHoMEaxoJQzSEtpw/UrqhaPj/zZEW9wQk4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\3.png" size="41656">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5TAYFDeOIQW8LvZAFzEEQiGWkMXtnJdqxqJonx9G3d8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\4.png" size="38772">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>B/q/7pik3PqK8WXaspHkPJiEQ14s7Ldw7QopimqxH9s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\5.png" size="26898">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kZoUoUn0RCqQchSJpK4LFN9f/8IPzaYdasU3FPz+gzw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\6.png" size="3698">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>o0ahyPYJopGbgTWHQWLciSqW4tkrHb2+tHn7fnFurj8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\7.png" size="26222">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ErMNKauGYPXbEwy45V9Lh8zCh3GzR2PScTa/PUC8bUg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\8.png" size="37988">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E32IobLukTg5meauAXmF4//rn49Za1pS2pJoOjJf0iU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\9.png" size="42647">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Gmy9Q9P+R3U4BbIyXgo+IvpsdUiZlhv7F1WGAte0cfI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_11.png" size="50299">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>42kJlCSkvTniBEUr9lpHvQObNIRH4V3OJx+yDUh/GhQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_12.png" size="52370">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>a30VzG5QPAXrB89p0VHqHpFWEZ1zZo5qTGnXTKRhqxA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_13.png" size="49589">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5yoDMZue+S6Ulr0NWZZWfArJsGy9pJBkejWgQRBcXd8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_14.png" size="45236">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tJQcKFWay/7suLLy7W9cmq2LMHOpSeMKCWTm6/Ysn/4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_15.png" size="30894">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xtwYoMcqt3olyT2vVsHEqNjiBkLE7KKfqHUEQiVqJWQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_16.png" size="3698">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>csQDooTX/TT8+jbtsTFLLCM2E4YZlgef5uXMOeewblk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_17.png" size="30541">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rJmmg3AWqPNG9Mc/Q5O6Jw4vIidOyyJpc2Lufs45xhE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_18.png" size="44471">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Yb/XxwB4kLdt0i2YIPtTC2ICZS9qkZ6CAEydqo/0XUk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_19.png" size="50080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gfsaIjcF4tBlxero56HNrioGfnMlDDM/wvmVLjgJQGU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_20.png" size="53015">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>APQniMb9p1vEwzL9V/HSkTz4j/BOBKnTb9c8QdMZ+zM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_21.png" size="52867">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>D/SENGh44iun5Fjy77k+e6LYVzH3ChLeYzc21xZjA9o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_22.png" size="53241">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MyMJLhfw1M+MR0FkLKII3uWo4nje3kRzynSV86GiypA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_23.png" size="50098">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NPJKC4xvVp+tHhVV3TCCKApckSgVeyXu+Mfh7NRpNq4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_24.png" size="46288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Vylc/sy7pvyBE57UeBgPzmWEASnpOnol7vpKc/lyy9c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_25.png" size="32271">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MgetEXJ5/iIyhmqPbGzBoL68MjMuJC9SAI6/pg1R0iQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_26.png" size="3698">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ll3MmKPHVMOH+2zTio+GePpTGbnD7NZq8iXEuln7Bpg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_27.png" size="31699">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4gBdIqHeoqm6ePIWowCuXLaRnvSPbVMKnvwtoJrgzIo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_28.png" size="45595">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tFMmey5P5p07YPpnzyTWltR+gH+ro+m8DMUUgKYBTrg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_29.png" size="50854">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mN3869ASgtoP9HNpmOPgdetAwVDVCpvBB1Mfd7vqRcA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Gold\Gold_30.png" size="53734">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zAFx5/rCkg1PF71QZ3O4tPNpPL5Q2+3qtyMTlvkrd3I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\1.png" size="49158">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>U/znmDw8H26pNGxfO/vEYtCOrd9gb2tSsGI1bZloH3k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\10.png" size="45680">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2tWCcCrq63GoOQWQ/NqErEbkpgro6Y6x8V+bBoKM1Zc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\2.png" size="47516">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TtE6ZlU1Q6esfwnJxBrP7czxq/lnEKgrMCNGnnSdqWk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\3.png" size="42395">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dal7UCTbb7S76hh5AMxi1LDfUV0ah9hx4khh0GrdjZM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\4.png" size="29788">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ktsRW4FWGfecOiUfudkgLyiFQuOp7GbJaHN9yGqf9ko=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\5.png" size="3941">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9DXheQz3V+g2us4LTKyXSfldSEVcdpCN4CmXBXx1IWE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\6.png" size="30339">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RmaT+97FdkLNyI0u3FaFjHoMH6avbX23HSIjkbJUbpo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\7.png" size="43463">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0Sn9i80tYFMDeZmblo3rdnwK5+vWVkdJNxygPO/S5RY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\8.png" size="46523">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>q/Brx76tdaXwsTWC+zSWtSJVudTU1POQtrI4bQ2DBG4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\9.png" size="48504">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jjdzUqX47oT+2wO6hK4NHJVQIMeOpq5GKsm/QsKpNYo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_11.png" size="59465">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>q+4cdFQKqvAyWwneoIOBjJ7FDYTFUDKByl01OvcAF48=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_12.png" size="56252">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Sd9hlFv8JY9wiIX8CZ6MYCCyKUo/9x/d5hd0X83+1r4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_13.png" size="49828">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LUnAUit8fl67TBqc3PcIxHYpMb0eD0/XcZ7QcSNqNrE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_14.png" size="34523">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>th2i/1ZcFbEAXaNo24BGfIxWU1My3VB9CqVK5FQnz6Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_15.png" size="3958">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9VuOcFRhaxYAi12vz6leTJo1hPLjtLIfWGYJCjyk89o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_16.png" size="35037">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>u5iSnZS+8UzyxRm50iyS7HYN7Rzv8c/6OxVdeMi0p6c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_17.png" size="50916">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Txcko1KNkBPYSRXnPZt5AWC5GCUUd0oQMkKDraaFbnM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_18.png" size="55660">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RkzQ3vmqBC+JUfJ0HJaCbBfqn16EltFpLeDWz9AuIv0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_19.png" size="58837">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>m0vv65T2Ykp8bFwHFDQIUKpKF+x/AalrHiK6hnHebAE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_20.png" size="55895">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rELbVuqgtPdOgWF0y0DDSSzOI2uBsjmfj72zBDEdpYs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_21.png" size="58632">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Qw9r+nDxuWUz+F6nogdam62g1AwoR8vW3j3nn3Vp/vI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_22.png" size="59277">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>803PkjtHGJZxs94LUZmrvkLxU67+Jg2miBTNfVd7NpI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_23.png" size="55560">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>k5yOr6UQJtdKaKTqv0xHZZxtwJBybZ+gU7AxN5Rjito=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_24.png" size="51723">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RWO7rYuSISmerGC0L4alrcEXLX/cs/QoGGeckD7io50=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_25.png" size="36373">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AlR1vO6fBf68M6NZzkV7iyeDcYIxLjcc2wAHzM38QWE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_26.png" size="3947">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WwCAJYnn9ktpSLibf4rak5i2C63vQB1tDMTyOEkuyO8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_27.png" size="35732">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fkuwu0pqNzj/yHQ2OiwWZ5ZB0AVbfwFQThb+1nTVCGw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_28.png" size="50932">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tBbtLobEwqCBV8VAtJk4MJfPF8zqhOaQX5u9nh0RuSU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_29.png" size="56194">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bY46FPR4HoofMmcKXolLxQNqj89WR7LlTPGjdSUSi8I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Coins\Silver\Silver_30.png" size="59582">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Dza77lgH9SpFtDT7MqJf4iryG8LXhQxGO9iwNyBflfQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Health\1.png" size="10490">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8f17ZrI80JeHFx3vVeRuy3Z0cPMzHKukdTXwTixMx8k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Health\2.png" size="10887">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+Q/07CWhKSpeIi38p5Fl2MpcGSYRTwPnVIBBqHM79Tc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Health\3.png" size="11129">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eg+vFXHhnaCJLtiNb8J3Sx2u+ozIVoRkeScctdF3ztU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Health\Bomb.png" size="50168">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zAoUeb2DsPTM84wC9sdaxY2DgBDPq2nFpDoR8oVb4XI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Health\life1.png" size="26776">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NL98z1Dm1VLwj+BUQjl1qCCLYz+KCrETEyRvNAbINtk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Backgrounds\game_background_1.png" size="478949">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+X006zhxJ465q9N8y3FLk3GHZ0TYS+e2/gnY8npdRR0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Backgrounds\game_background_birds.png" size="333799">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lqQ0Ah/YDJueKvvXIPt9hY0QnJ3vBOc4oF8PH8RDi68=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Backgrounds\game_background_night.png" size="380097">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xOoZk7KpkXl3RAhwvf/0N+hNKJfqv5hCL7zfSRVeFE8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Backgrounds\game_background_waterfall.png" size="478097">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HHJeC2PWDvJHFT9sVSiaduDnDnTf5ry3ca1OxSUUUEY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Backgrounds\Games_Above_the_clouds__the_background_of_the_game_Bejeweled_3_101622_16.jpeg" size="273763">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mpMEuzZbwgAcF9yBB7qSpDM08J4GJptNRfRl9M2VceQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Characters\bobLeft.png" size="8257">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Pounb/GMnPRI/FZonqQ1+g+k1IIG/k0qArwJgIUS9n8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Characters\bobRight.png" size="8030">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tFDn/O3/58+YeA6a0e/FSpNcLs828Q+iUP60+61qC68=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Characters\superManLeft.png" size="8354">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>id8GM6XRPE+FhOeeqHYuTnMd+EGygpLsQ26NexxlErg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Characters\superManRight.png" size="8134">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n5tOzfweX+aYg0Bj1h1MmLFb9VByUeh26I2eSzJR+7c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\1.png" size="46333">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XjlZ3LnZ4f0+8FmK9Ejrbhg+n5kx9oz8FEm46KpAJhE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\10.png" size="42921">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qTpoWHFeK1SuOg8aV6TeqXj0MqDH3gGN8oRjlgagUp4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\2.png" size="45186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sD3L4I9QKIcnSpXXWc+3sDlHTRAjfhxrdDI9UfSHW58=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\3.png" size="40043">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aiLVL5RLUnX6DOXLcQ8X4hGm3Sq5pz3EiGEFEndhmWg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\4.png" size="27856">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mai9mI9WEVKY5QQSRFEjJ0qnEaDCEmjY9P67X16Hkfo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\5.png" size="3891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EeQVRw9r78sywKfWpgPyF5T9+r/qI/Ub7Pu1GNoTGOQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\6.png" size="28756">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FOtcnLwC8feEEtixoJiPQflpqEpwudCihaMumv5mGuQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\7.png" size="41235">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PTe0wcqKZ0/l4H8zLz7TaWG/ttCb91pHkDz4N6DGFJI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\8.png" size="43903">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5/a13sr8dCXI1MJcIAVYpEcrtFPuvK4yVfEkRhauQjw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\9.png" size="45571">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SGoefNSMIJ1jBlozdvp8SCGOaiGc8vimIg/knq03OZk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_11.png" size="52491">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IuYoXXVZ0OPzF6YvrI0CGS3YyF1SwkxSqq03Gbuzoew=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_12.png" size="55348">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jT/USH1CEC6U4tGP/9oeXIV2Jpl/nUSrsLBzGr/krds=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_13.png" size="52706">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jODwVJ07/EMgheWWtl67HOnP9Mp907cD32pJcjeW1Jc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_14.png" size="48112">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3K3CdWHEgrQEWEpK6uuzcQBtlyvyZtbxo5EGwQzints=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_15.png" size="33213">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KtD7rj6UnGs+gNexblHKDnEE9LoFf8MDclNyZA7eJNc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_16.png" size="3863">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IRi1A0UO0P33xiB/swRqEDVp9B9J599Z14kgwhJXS8o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_17.png" size="32563">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pcBdcLF0k2m//DfHoz/1MB0ykZAadPQ981CbA+c8C/E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_18.png" size="46983">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Lez1CWuaBBlxRqUmizSsBPiaPKnN7NbHn7o/UnBCGAY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_19.png" size="53407">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZhA9TMqjKbvo8rCy166F+Da3zf/lc8OltMumUFOiqp0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_20.png" size="56283">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hwrTMqlP197myhHt8FnOA7qrcs5AHqjfR9Brm4LoWuA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_21.png" size="56395">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OK3LwdNan31A9w44PpEX/msqIwjF4r3K2nmbOlb8L0g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_22.png" size="53248">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wbaqOTWu4iymTywHqXR2f1qaB69KPKG8rQlydFMG4f8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_23.png" size="48001">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HqJLwYy0M607PDIl34gbSJtqxwKAdDqoHxdCr7cKj9k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_24.png" size="33459">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1QburAgALWFzTI5A7Fllxt5c+5fnpm0Px8GEWOCG2uI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_25.png" size="3878">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zkkS+7w1yA7fZLO/vsozZp+gkhS2E5xO4hrN+VMUhEo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_26.png" size="34393">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>t0OtU9S5XrWx18QRKqR8l7hfJK/plN9ANvukEi3VZCw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_27.png" size="49026">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9ZBnVYFeBaZ9lyffSek8uaesJhlyO+U4N8ehODLFbUE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_28.png" size="52655">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RZIlapxPzHCtE6Ns1lUMAxeKjewyPc8aGg4+Qu1CQ8o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_29.png" size="56175">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>01bSWM309/QfGZ6fYD4m0tZKGUVx6sNe/miM276MhE8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Bronze\Bronze_30.png" size="55316">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iV8SY7N3rSdWPdcoZ1+1UMusJ39jkUkRD6GZujrz4SE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\1.png" size="41157">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jV4ntZcG9Cirf9wzVJ0LD5kA6GEqArzZZSb0VyFdqvQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\10.png" size="44175">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FoN7O4SMfLEhNPGyPUxJFjrbIUHhpmHfKJqpLDcCVHQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\2.png" size="43402">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uGixQS4RIVHoMEaxoJQzSEtpw/UrqhaPj/zZEW9wQk4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\3.png" size="41656">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5TAYFDeOIQW8LvZAFzEEQiGWkMXtnJdqxqJonx9G3d8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\4.png" size="38772">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>B/q/7pik3PqK8WXaspHkPJiEQ14s7Ldw7QopimqxH9s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\5.png" size="26898">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kZoUoUn0RCqQchSJpK4LFN9f/8IPzaYdasU3FPz+gzw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\6.png" size="3698">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>o0ahyPYJopGbgTWHQWLciSqW4tkrHb2+tHn7fnFurj8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\7.png" size="26222">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ErMNKauGYPXbEwy45V9Lh8zCh3GzR2PScTa/PUC8bUg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\8.png" size="37988">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E32IobLukTg5meauAXmF4//rn49Za1pS2pJoOjJf0iU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\9.png" size="42647">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Gmy9Q9P+R3U4BbIyXgo+IvpsdUiZlhv7F1WGAte0cfI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_11.png" size="50299">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>42kJlCSkvTniBEUr9lpHvQObNIRH4V3OJx+yDUh/GhQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_12.png" size="52370">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>a30VzG5QPAXrB89p0VHqHpFWEZ1zZo5qTGnXTKRhqxA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_13.png" size="49589">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5yoDMZue+S6Ulr0NWZZWfArJsGy9pJBkejWgQRBcXd8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_14.png" size="45236">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tJQcKFWay/7suLLy7W9cmq2LMHOpSeMKCWTm6/Ysn/4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_15.png" size="30894">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xtwYoMcqt3olyT2vVsHEqNjiBkLE7KKfqHUEQiVqJWQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_16.png" size="3698">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>csQDooTX/TT8+jbtsTFLLCM2E4YZlgef5uXMOeewblk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_17.png" size="30541">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rJmmg3AWqPNG9Mc/Q5O6Jw4vIidOyyJpc2Lufs45xhE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_18.png" size="44471">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Yb/XxwB4kLdt0i2YIPtTC2ICZS9qkZ6CAEydqo/0XUk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_19.png" size="50080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gfsaIjcF4tBlxero56HNrioGfnMlDDM/wvmVLjgJQGU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_20.png" size="53015">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>APQniMb9p1vEwzL9V/HSkTz4j/BOBKnTb9c8QdMZ+zM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_21.png" size="52867">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>D/SENGh44iun5Fjy77k+e6LYVzH3ChLeYzc21xZjA9o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_22.png" size="53241">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MyMJLhfw1M+MR0FkLKII3uWo4nje3kRzynSV86GiypA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_23.png" size="50098">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NPJKC4xvVp+tHhVV3TCCKApckSgVeyXu+Mfh7NRpNq4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_24.png" size="46288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Vylc/sy7pvyBE57UeBgPzmWEASnpOnol7vpKc/lyy9c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_25.png" size="32271">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MgetEXJ5/iIyhmqPbGzBoL68MjMuJC9SAI6/pg1R0iQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_26.png" size="3698">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ll3MmKPHVMOH+2zTio+GePpTGbnD7NZq8iXEuln7Bpg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_27.png" size="31699">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4gBdIqHeoqm6ePIWowCuXLaRnvSPbVMKnvwtoJrgzIo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_28.png" size="45595">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tFMmey5P5p07YPpnzyTWltR+gH+ro+m8DMUUgKYBTrg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_29.png" size="50854">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mN3869ASgtoP9HNpmOPgdetAwVDVCpvBB1Mfd7vqRcA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Gold\Gold_30.png" size="53734">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zAFx5/rCkg1PF71QZ3O4tPNpPL5Q2+3qtyMTlvkrd3I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\1.png" size="49158">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>U/znmDw8H26pNGxfO/vEYtCOrd9gb2tSsGI1bZloH3k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\10.png" size="45680">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2tWCcCrq63GoOQWQ/NqErEbkpgro6Y6x8V+bBoKM1Zc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\2.png" size="47516">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TtE6ZlU1Q6esfwnJxBrP7czxq/lnEKgrMCNGnnSdqWk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\3.png" size="42395">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dal7UCTbb7S76hh5AMxi1LDfUV0ah9hx4khh0GrdjZM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\4.png" size="29788">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ktsRW4FWGfecOiUfudkgLyiFQuOp7GbJaHN9yGqf9ko=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\5.png" size="3941">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9DXheQz3V+g2us4LTKyXSfldSEVcdpCN4CmXBXx1IWE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\6.png" size="30339">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RmaT+97FdkLNyI0u3FaFjHoMH6avbX23HSIjkbJUbpo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\7.png" size="43463">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0Sn9i80tYFMDeZmblo3rdnwK5+vWVkdJNxygPO/S5RY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\8.png" size="46523">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>q/Brx76tdaXwsTWC+zSWtSJVudTU1POQtrI4bQ2DBG4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\9.png" size="48504">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jjdzUqX47oT+2wO6hK4NHJVQIMeOpq5GKsm/QsKpNYo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_11.png" size="59465">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>q+4cdFQKqvAyWwneoIOBjJ7FDYTFUDKByl01OvcAF48=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_12.png" size="56252">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Sd9hlFv8JY9wiIX8CZ6MYCCyKUo/9x/d5hd0X83+1r4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_13.png" size="49828">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LUnAUit8fl67TBqc3PcIxHYpMb0eD0/XcZ7QcSNqNrE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_14.png" size="34523">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>th2i/1ZcFbEAXaNo24BGfIxWU1My3VB9CqVK5FQnz6Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_15.png" size="3958">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9VuOcFRhaxYAi12vz6leTJo1hPLjtLIfWGYJCjyk89o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_16.png" size="35037">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>u5iSnZS+8UzyxRm50iyS7HYN7Rzv8c/6OxVdeMi0p6c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_17.png" size="50916">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Txcko1KNkBPYSRXnPZt5AWC5GCUUd0oQMkKDraaFbnM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_18.png" size="55660">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RkzQ3vmqBC+JUfJ0HJaCbBfqn16EltFpLeDWz9AuIv0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_19.png" size="58837">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>m0vv65T2Ykp8bFwHFDQIUKpKF+x/AalrHiK6hnHebAE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_20.png" size="55895">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rELbVuqgtPdOgWF0y0DDSSzOI2uBsjmfj72zBDEdpYs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_21.png" size="58632">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Qw9r+nDxuWUz+F6nogdam62g1AwoR8vW3j3nn3Vp/vI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_22.png" size="59277">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>803PkjtHGJZxs94LUZmrvkLxU67+Jg2miBTNfVd7NpI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_23.png" size="55560">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>k5yOr6UQJtdKaKTqv0xHZZxtwJBybZ+gU7AxN5Rjito=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_24.png" size="51723">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RWO7rYuSISmerGC0L4alrcEXLX/cs/QoGGeckD7io50=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_25.png" size="36373">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AlR1vO6fBf68M6NZzkV7iyeDcYIxLjcc2wAHzM38QWE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_26.png" size="3947">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WwCAJYnn9ktpSLibf4rak5i2C63vQB1tDMTyOEkuyO8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_27.png" size="35732">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fkuwu0pqNzj/yHQ2OiwWZ5ZB0AVbfwFQThb+1nTVCGw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_28.png" size="50932">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tBbtLobEwqCBV8VAtJk4MJfPF8zqhOaQX5u9nh0RuSU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_29.png" size="56194">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bY46FPR4HoofMmcKXolLxQNqj89WR7LlTPGjdSUSi8I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Coins\Silver\Silver_30.png" size="59582">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Dza77lgH9SpFtDT7MqJf4iryG8LXhQxGO9iwNyBflfQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Health\1.png" size="10490">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8f17ZrI80JeHFx3vVeRuy3Z0cPMzHKukdTXwTixMx8k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Health\2.png" size="10887">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+Q/07CWhKSpeIi38p5Fl2MpcGSYRTwPnVIBBqHM79Tc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Health\3.png" size="11129">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>eg+vFXHhnaCJLtiNb8J3Sx2u+ozIVoRkeScctdF3ztU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Health\Bomb.png" size="50168">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zAoUeb2DsPTM84wC9sdaxY2DgBDPq2nFpDoR8oVb4XI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Images\Images\Health\life1.png" size="26776">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NL98z1Dm1VLwj+BUQjl1qCCLYz+KCrETEyRvNAbINtk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SFX\chew.wav" size="73806">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+QDrDgo+rFfHzlVo9c1Cwwcak0V5Jz7pFE0Q1f10SOQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SFX\coin.wav" size="69198">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>o15EGSGIMsW/2f/ZKXGQ3xfH5qYyY+YSogkM/e8wEpk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-M1UBLA5\Eden" issuerKeyHash="675492460053e61718f4f3034eea20f1996a154c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lgp6e57/L/v+cXcZji6xs8vKkOBkt5hfbV8zEFp8FtI=</DigestValue></Reference></SignedInfo><SignatureValue>F4SJQc3Yw5aIEsiWapq/4DnVKIjgyqT7fSOMHN42NZ6A3/8xHJpHG+vVhO9gJB5PbRgUo5nPGHVH9TgRBNgilTyuPl9/rpB2vAjbnESE2z3RF6r37miu1hD+/2Vx0ADdt3l+sqVzT+FoN22qFiV0LupDXj7KBfBZ+fnDRPBW62I=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1glI9bnjA0viL4lR1FuKxcyFTQUN2RgFb9XmVdfGqNuD3rBEE0CJt4FRybB09YJMqkKxDSPTZBue3sez8dCr4H1ooCfTnwimwT00cz2JsZmRkdzjJVQ1qPY0ekZA1CAizHE7Nm/F8ZF/XLHNtfbDg5+ILt8soQzBg/01eg0Iv40=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d2167c5a10335f6d5f98b764e090cacbb3b12e8e197771fefb2fff9e7b7a0a96" Description="" Url=""><as:assemblyIdentity name="FinalProject_OOP.exe" version="1.0.0.1" publicKeyToken="9e3fb3bd967113f7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-M1UBLA5\Eden</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qd67aO5mK7j78BV9Kyhn42BK3aDXR0IEVtJ/WYWL66k=</DigestValue></Reference></SignedInfo><SignatureValue>L41Irfc8VCVUG+Alx1f3ZLdUMrBvboeVptHQs97+dAsf+N8skrc0GcSpVD6OuMr+RyHbiGPfyVeRxToEfvzWDSEwTQ1jBmuMVo+OWHR1RuHZCAFmPyG9uRKBbWzObB/e/230ZOKIdUMuPPWL9WJGRV8+NAbnVJxE1/HFsEzSWF8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1glI9bnjA0viL4lR1FuKxcyFTQUN2RgFb9XmVdfGqNuD3rBEE0CJt4FRybB09YJMqkKxDSPTZBue3sez8dCr4H1ooCfTnwimwT00cz2JsZmRkdzjJVQ1qPY0ekZA1CAizHE7Nm/F8ZF/XLHNtfbDg5+ILt8soQzBg/01eg0Iv40=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQPwHmq0pYU55IUckJoNUigDANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAE0AMQBVAEIATABBADUAXABFAGQAZQBuMB4XDTIzMDMyMjE0MzAyMFoXDTI0MDMyMTIwMzAyMFowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBNADEAVQBCAEwAQQA1AFwARQBkAGUAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA1glI9bnjA0viL4lR1FuKxcyFTQUN2RgFb9XmVdfGqNuD3rBEE0CJt4FRybB09YJMqkKxDSPTZBue3sez8dCr4H1ooCfTnwimwT00cz2JsZmRkdzjJVQ1qPY0ekZA1CAizHE7Nm/F8ZF/XLHNtfbDg5+ILt8soQzBg/01eg0Iv40CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAgc9tGoVoeb0VNeLeDH7pZDoKafiHvqvGWVrsupBUH/rFdtbXh70fWfRXhdWdovgAw9+uSg4r2qABW6gtrLaIjiC+i2xNJR7+3UAa3daw7mjA95uBRmuWoTRx1hWCY8JGc+t/ttJcqcTYoNbvzIVmffAwJqoKSSmk8/ZR91wIOIw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

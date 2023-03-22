@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FinalProject_OOP.exe" version="1.0.0.5" publicKeyToken="9e3fb3bd967113f7" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FinalProject_OOP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FinalProject_OOP.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FinalProject_OOP.exe" size="4087768">
+      <assemblyIdentity name="FinalProject_OOP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wZ7C/JJK6k/Po7QKBKmGRjFtdTzPdvaF2G7DY5MPvnQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FinalProject_OOP.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SFX\chew.wav" size="73806">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+QDrDgo+rFfHzlVo9c1Cwwcak0V5Jz7pFE0Q1f10SOQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SFX\coin.wav" size="69198">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>o15EGSGIMsW/2f/ZKXGQ3xfH5qYyY+YSogkM/e8wEpk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-M1UBLA5\Eden" issuerKeyHash="675492460053e61718f4f3034eea20f1996a154c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ONAJIMghX+UkPZ8cjl4/YA1+ZZ7jHpkJ5/aTs3EbVJE=</DigestValue></Reference></SignedInfo><SignatureValue>arDgFJe3oPmrWZZGZ+yBBFIRJTxG4G5Cm7YxAeR4Jiwlt0uU43VIrPSJkkRM6/tm5ejAuDBYTRODNccnIFt/+EQe5s6ccP93ucmjpVGl6/5ZqJP2IJXO/77+ktd0IJ5CZIOERGDypzbMvGG9Qyp+PKIOV/Es85jJZnBUz/cZsbE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1glI9bnjA0viL4lR1FuKxcyFTQUN2RgFb9XmVdfGqNuD3rBEE0CJt4FRybB09YJMqkKxDSPTZBue3sez8dCr4H1ooCfTnwimwT00cz2JsZmRkdzjJVQ1qPY0ekZA1CAizHE7Nm/F8ZF/XLHNtfbDg5+ILt8soQzBg/01eg0Iv40=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="91541b71b393f6e709991ee39e657e0d603f5e8e1c9f3d24e55f21c82009d038" Description="" Url=""><as:assemblyIdentity name="FinalProject_OOP.exe" version="1.0.0.5" publicKeyToken="9e3fb3bd967113f7" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-M1UBLA5\Eden</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>AJi71FXaWte+y1WVfrpeSZduZtevS9ErHhHnyFcMmts=</DigestValue></Reference></SignedInfo><SignatureValue>sCSa23RFGCFPs7ro3G6cB5Gg74umkGHdh+k4BO4yk5bB1PXsZz7NihXkyIwv2D6gQqrajLELhts/s3Ltgl24DPEK8/kVqwsaerx5+LCKpXuwNZuedtAD4Y8riZCHhUHx/atoADYOhmPLu5NE2okr/hJNDD+Q4E5JRp5JWrn9IYs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1glI9bnjA0viL4lR1FuKxcyFTQUN2RgFb9XmVdfGqNuD3rBEE0CJt4FRybB09YJMqkKxDSPTZBue3sez8dCr4H1ooCfTnwimwT00cz2JsZmRkdzjJVQ1qPY0ekZA1CAizHE7Nm/F8ZF/XLHNtfbDg5+ILt8soQzBg/01eg0Iv40=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQPwHmq0pYU55IUckJoNUigDANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAE0AMQBVAEIATABBADUAXABFAGQAZQBuMB4XDTIzMDMyMjE0MzAyMFoXDTI0MDMyMTIwMzAyMFowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBNADEAVQBCAEwAQQA1AFwARQBkAGUAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA1glI9bnjA0viL4lR1FuKxcyFTQUN2RgFb9XmVdfGqNuD3rBEE0CJt4FRybB09YJMqkKxDSPTZBue3sez8dCr4H1ooCfTnwimwT00cz2JsZmRkdzjJVQ1qPY0ekZA1CAizHE7Nm/F8ZF/XLHNtfbDg5+ILt8soQzBg/01eg0Iv40CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAgc9tGoVoeb0VNeLeDH7pZDoKafiHvqvGWVrsupBUH/rFdtbXh70fWfRXhdWdovgAw9+uSg4r2qABW6gtrLaIjiC+i2xNJR7+3UAa3daw7mjA95uBRmuWoTRx1hWCY8JGc+t/ttJcqcTYoNbvzIVmffAwJqoKSSmk8/ZR91wIOIw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
